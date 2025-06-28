@@ -12,8 +12,8 @@ let routering = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout/>}>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/about" element={<About/>}></Route>
-    <Route path="/service" element={<Service/>}></Route>
-    <Route path="/blog" element={<Blog/>}></Route>
+    <Route path="/about/service" element={<Service/>}></Route>
+    <Route path="/about/service/blog" element={<Blog/>}></Route>
     <Route path="/faq" element={<Faq/>}></Route>
     <Route path="/support" element={<Support/>}></Route>
     <Route path="/contact" element={<Contact/>}></Route>
