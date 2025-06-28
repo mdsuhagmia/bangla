@@ -14,9 +14,9 @@ let routering = createBrowserRouter(createRoutesFromElements(
     <Route path="/about" element={<About/>}></Route>
     <Route path="/about/service" element={<Service/>}></Route>
     <Route path="/about/service/blog" element={<Blog/>}></Route>
-    <Route path="/faq" element={<Faq/>}></Route>
-    <Route path="/support" element={<Support/>}></Route>
-    <Route path="/contact" element={<Contact/>}></Route>
+    <Route path="/about/service/blog/faq" element={<Faq/>}></Route>
+    <Route path="/about/service/blog/faq/support" element={<Support/>}></Route>
+    <Route path="/about/service/blog/faq/support/contact" element={<Contact/>}></Route>
   </Route>
 ))
 
